@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <!-logo de prueba de web->
+        <img src="images/logo.svg" width="105px" height="80px" alt="logo web prueba">
+        <h1><u>Hoja de Vida</u></h1><br>
+        <h2>Datos personales</h2>
+        <h3>Enrique Abrham Céspedes Domínguez</h3>
+        <h3>Fecha nacimiento: 11-11-1993</h3>
+        <h3>Lugar nacimiento: Santiago, Chile</h3>
+        <br>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educación</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+          </ul>
+        </nav>
+    </header>
+    <section>
+    <article>
+      <h2>Educación</h2>
+      <table>
+        <tr>
+          <td>Año</td>
+          <td>Institución</td>
+          <td>Lugar</td>
+          <td>¿Culminó?</td>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>Armada de Chile</td>
+          <td>Viña del Mar</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Ejercito de Chile</td>
+          <td>Santiago</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>DuocUC</td>
+          <td>Santiago</td>
+          <td>Si</td>
+        </tr>
+      </table>
+    </article>
+  </section>
+    <section>
+      <article>
+        <h2>Agregar Estudios</h2>
+        <form class="formulario" action="index.html" method="post">
+          <strong>Año: </strong><select class="lista_desp" name="lista_desplegable">
+            <option value="año">2010</option>
+            <option value="año">2011</option>
+            <option value="año">2012</option>
+            <option value="año">2013</option>
+            <option value="año">2014</option>
+            <option value="año">2015</option>
+            <option value="año">2016</option>
+            <option value="año">2017</option>
+            <option value="año">2018</option>
+            <option value="año">2019</option>
+          </select>
+          <p>
+          <strong>Institución: </strong><input type="text" name="institucion" placeholder="ingrese nombre institución">
+          <p>
+          <strong>Lugar: </strong><input type="text" name="lugar" placeholder="nombre ciudad">
+          <p><input type="button" name="enviar" value="Enviar"></p>
+        </form>
+      </article>
+    </section>
+    <footer>
+<h1>Contacto</h1>
+<p><a href="mailto:enrique.cespedesd@gmail.com?subject=feedback">Correo electronico</a></p>
+<p><a href="https://www.facebook.com/ecespedesdom"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="fb logo" width="20px" height="20px"></a></p>
+<p>Número de contacto: +569 856481114</p>
+    </footer>
+    </body>
+  </html>
